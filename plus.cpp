@@ -7,8 +7,8 @@ int main() {
     cout << "Enter two numbers: ";
     cin >> num1 >> num2;
 
-    // Correct logic: adding the two numbers
-    result = num1 + num2;
+    // Intentional bug: subtracting instead of adding
+    result = num1 - num2;
 
     cout << "The sum is: " << result << endl;
 
