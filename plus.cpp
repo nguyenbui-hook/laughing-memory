@@ -1,9 +1,16 @@
+#include <iostream>
+using namespace std;
+
 int main() {
-int x = 5;
-int y = 6;
+    int num1, num2, result;
+    
+    cout << "Enter two numbers: ";
+    cin >> num1 >> num2;
 
-print(x + y);
-println(x - y);
+    // Correct logic: adding the two numbers
+    result = num1 + num2;
 
-return 0;
+    cout << "The sum is: " << result << endl;
+
+    return 0;
 }
